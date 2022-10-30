@@ -1,0 +1,37 @@
+ #black1{
+   -fx-background-color: black; 
+    -fx-background-image: url("image/téléchargement.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 900 866;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);   
+}
+
+ #black2{
+   -fx-background-color: black; 
+    -fx-background-image: url("image/fondlvl2.jpg");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: 900 866;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);   
+}
+
+#white{
+	-fx-background-color: #290727;
+}
+
+#statistique{
+	-fx-font-size: 46;
+}
+
+#scoreDisp,#vieDisp,#puissanceDisp,#statistique{
+	-fx-font-family: "Brush Script MT";
+}
+
+.split-pane *.split-pane-divider {
+    -fx-padding: 0 1 0 1;
+}
+
+.split-pane-divider {
+   -fx-background-color: transparent;
+}
